@@ -1,0 +1,13 @@
+#默认加载profile
+spring:
+  profiles:
+    active: app,dao,middleware,tolerance
+  main:
+    allow-circular-references: true
+# 默认tomcat启动端口
+server:
+  port: 8080
+
+
+
+

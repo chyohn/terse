@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  io.github.chyohn.terse.spring.boot.starter.ParallelAutoConfiguration

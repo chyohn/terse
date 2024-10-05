@@ -1,0 +1,2 @@
+# receiver loader
+io.github.chyohn.terse.command.IReceiverFactoryLoader = io.github.chyohn.terse.spring.ReceiverFactorySpringLoader

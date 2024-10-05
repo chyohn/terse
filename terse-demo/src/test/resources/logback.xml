@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+
+  <!--    <property name="logPath" value="./log"/>-->
+<!--  <property name="outPattern" value="[%-5p] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] [%c:%L][%X{tid}] - %m%n"/>-->
+  <property name="outPattern" value="[%-5p] [%t] [%c:%L] - %m%n"/>
+
+
+  <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder>
+      <pattern>${outPattern}</pattern>
+    </encoder>
+  </appender>
+
+  <!-- 缺省应用日志输出 -->
+  <root level="DEBUG">
+    <appender-ref ref="CONSOLE"/>
+  </root>
+</configuration>

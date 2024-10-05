@@ -1,0 +1,2 @@
+# cluster
+io.github.chyohn.terse.cluster.IClusterClient=io.github.chyohn.terse.cluster.support.ClusterSupport

@@ -1,0 +1,15 @@
+# flow
+io.github.chyohn.terse.flow.IFlowExecutor = io.github.chyohn.terse.flow.impl.DefaultFlowExecutor
+
+# command invoker
+io.github.chyohn.terse.command.ICommandInvoker = io.github.chyohn.terse.command.impl.DefaultCommandInvoker
+
+# receiver registry
+io.github.chyohn.terse.command.IReceiverRegistry = io.github.chyohn.terse.command.impl.DefaultReceiverRegistry
+
+# receiver loader
+io.github.chyohn.terse.command.IReceiverFactoryLoader = io.github.chyohn.terse.command.impl.DefaultReceiverFactoryLoader
+
+# receivers
+io.github.chyohn.terse.command.IReceiverFactory = \
+  io.github.chyohn.terse.command.threadpool.ThreadPoolReceiverFactory
